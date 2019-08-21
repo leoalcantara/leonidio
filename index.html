@@ -7,21 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <title>Leonidio Alcantara</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div id="banner">
+    <header class="responsive">
+
+        <nav class="nav navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>   
+        
+
+        <div id="banner" class="sombra">
             <h1>Leonidio Alcantara</h1>
             <p>Consultoria e Desenvolvimento de Sistemas</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/leonidio-alcantara-9b563341/"><img class="rounded-circle" src="ico/linkedin_32.png" alt="linkedin Leonidio Alcantara"></a></li>
+                <li><a href="https://www.instagram.com/leonidioalcantara/"><img class="rounded-circle" src="ico/instagram_32.png" alt="instagram Leonidio Alcantara"></a></li>
+                <li><a href="https://www.facebook.com/leonidio.s.alcantara"><img class="rounded-circle" src="ico/facebook_32.png" alt="facebook Leonidio Alcantara"></a></li>
+                <li><a href="https://twitter.com/leo_itap"><img class="rounded-circle" src="ico/twitter_32.png" alt="twitter Leonidio Alcantara"></a></li>
+               
+            </ul>
+            <!--<button type="button" class="btn btn-outline-light btn-lg">Contato</button>-->
         </div>
-    </header>
+    </header>    a
 
     <section class="container" id="sobre">
         <h2>Sobre</h2>
         <img src="img/sobre.jpg" class="img-fluid" alt="sobre">  
         
-        <div class="card">
+        <div class="my-card">
+         
             <div class="card-header">
                 <h3 class="card-title" data-toggle="collapse" data-target="#p-sobre">Formação Acadêmica</h3>
             </div>
@@ -31,8 +65,9 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
