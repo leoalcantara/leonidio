@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="responsive">
-
+        <!--Start Header -->
         <nav class="nav navbar navbar-expand-lg navbar-dark bg-transparent">
             <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -19,7 +19,7 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                       <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
                     </li>
                     <li class="nav-item">
@@ -29,13 +29,13 @@
                       <a class="nav-link" href="#">Clientes</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Contato</a>
+                      <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
         </nav>   
-        
-
+        <!--End Header-->
+        <!--Start Banner-->
         <div id="banner" class="sombra">
             <h1>Leonidio Alcantara</h1>
             <p>Consultoria e Desenvolvimento de Sistemas</p>
@@ -48,22 +48,30 @@
             </ul>
             <!--<button type="button" class="btn btn-outline-light btn-lg">Contato</button>-->
         </div>
-    </header>    a
+        <!--End Banner-->
+    </header>    
+    <div class="container">
 
-    <section class="container" id="sobre">
-        <h2>Sobre</h2>
-        <img src="img/sobre.jpg" class="img-fluid" alt="sobre">  
+    <section class="card" id="sobre">
+        <img class="rounded-circle shadow p-1 mb-5 bg-white rounded mx-auto d-block" src="img/leonidio.png" alt="">
+        <h2 class="text-center">Sobre</h2>
         
         <div class="my-card">
          
             <div class="card-header">
                 <h3 class="card-title" data-toggle="collapse" data-target="#p-sobre">Formação Acadêmica</h3>
             </div>
-            <div class="card-body">
+            <div class="card-body">                
                 <p id="p-sobre" class="collapse in">Especialista em Engenharia de Software pela PUC, Analise e Desenvolvimento de Sistemas pelo Instituto Federal do Espírito Santo e técnico e Informática pelo Instituto Federal Fluminense</p>
             </div>    
         </div>
     </section>
+    </div>
+    <footer>
+        <div class="flex">
+           <p class="text-center"> Todos direitos reservados © Leonidio Alcantara - 2019</p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
